@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "content": "Postman is good in testing backend",
+    "important": true
+}
+
+# next line after URL is for setting headers. It cannot be empty
